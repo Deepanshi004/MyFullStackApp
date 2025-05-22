@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CLIMAP" parent="Theme.Material3.Light.NoActionBar"/>
+    <style name="Theme.Climap.splash.fullscren" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <style name="Theme.MyApp.NoSplash" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Kill the system splash -->
+        <item name="android:windowBackground">@android:color/black</item> <!-- Or your desired background -->
+        <item name="android:windowSplashScreenAnimatedIcon">@null</item>
+        <item name="android:windowSplashScreenBackground">@android:color/transparent</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyApp.NoSplash</item>
+    </style>
+
+</resources>

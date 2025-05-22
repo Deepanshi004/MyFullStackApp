@@ -1,0 +1,19 @@
+# Android Studio files
+AndroidApp/.idea/
+AndroidApp/.gradle/
+AndroidApp/build/
+AndroidApp/local.properties
+AndroidApp/captures/
+AndroidApp/.DS_Store
+
+# Android dependencies
+AndroidApp/*.iml
+
+# Node.js backend files
+Backend/node_modules/
+Backend/.env
+Backend/.DS_Store
+
+# OS generated files
+Thumbs.db
+.DS_Store

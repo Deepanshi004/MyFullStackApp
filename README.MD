@@ -20,9 +20,9 @@ This is a complete Android application integrated with a backend server. The And
 - API integration with backend server
 
 ### Backend:
-- API routes (Node.js / Django / etc.)
+- API routes (Node.js)
 - JWT-based authentication system
-- Database integration (MongoDB / Firebase / SQL)
+- Database integration (MongoDB)
 
 ---
 
